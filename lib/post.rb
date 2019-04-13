@@ -13,13 +13,9 @@ class Post
 
   def author_name
     if !self.author
-      nil
     else self.author.name
     end
   end
-  # if my_string.to_s.empty?
-  #   # It's nil or empty
-  # end
 end
 
 
